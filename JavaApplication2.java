@@ -10,7 +10,7 @@ public class JavaApplication2 {
           try {  
              Class.forName("org.postgresql.Driver");  
              c = DriverManager.getConnection("jdbc:postgresql://localhost:5432/emp", "postgres",   
-               "Periyar");             
+               "12345678");             
    c.setAutoCommit(false);  
             System.out.println("Open Database Connection Successfully");              
 stmt = c.createStatement();  
@@ -37,4 +37,4 @@ stmt.close();
         }  
         System.out.println("Operation Done Successfully");  
     }  
-}  
+} 
