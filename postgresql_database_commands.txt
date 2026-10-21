@@ -1,0 +1,21 @@
+CREATE DATABASE emp;
+
+\c emp
+
+CREATE TABLE emp_detail (
+    eid INT PRIMARY KEY,
+    ename VARCHAR(100) NOT NULL,
+    eage INT,
+    eaddress VARCHAR(200),
+    esalary REAL
+);
+
+INSERT INTO emp_detail
+    (eid, ename, eage, eaddress, esalary)
+VALUES
+    (1, 'John', 25, 'Chennai', 25000),
+    (2, 'David', 30, 'Salem', 35000),
+    (3, 'Rahul', 28, 'Coimbatore', 40000);
+
+
+SELECT * FROM emp_detail;
