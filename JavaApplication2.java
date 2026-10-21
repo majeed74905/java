@@ -38,3 +38,11 @@ stmt.close();
         System.out.println("Operation Done Successfully");  
     }  
 } 
+
+
+
+
+// compile this program using this command 
+// javac --release 11 -cp ".;postgresql-42.7.12.jar" JavaApplication2.java
+//run this program using this command
+//java -cp ".;postgresql-42.7.12.jar" JavaApplication2
