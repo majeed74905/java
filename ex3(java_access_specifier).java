@@ -55,3 +55,9 @@ class ex3 {
         
     }
 }
+
+
+
+\\javac ex3.java
+
+\\java ex3
